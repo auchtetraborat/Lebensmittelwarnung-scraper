@@ -1,3 +1,6 @@
+## Das Projekt ist mittlerweile in https://github.com/bundesAPI/deutschland integriert. Die Version dort dürfte aktiver weiterentwickelt werden, schaut dort vorbei.
+## Das hier ist der Stand zum Zeitpunkt der Integration.
+
 ## Scraper für den RSS Feed von https://www.lebensmittelwarnung.de/bvl-lmw-de/
 
 Source: https://www.lebensmittelwarnung.de/bvl-lmw-de/opensaga/feed/ $type / $region .rss
