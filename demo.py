@@ -1,9 +1,7 @@
-from Lebensmittelwarnung import WarningFeedUrl, WarningFeed
+from lebensmittelwarnung import Lebensmittelwarnung
 
 type = "alle"
 region = "alle_bundeslaender"
 
-url = WarningFeedUrl.create(type,region)
-feed = WarningFeed(url)
-js = feed.export_to_json()
-print(js)
+data = Lebensmittelwarnung().get(type, region)
+print(data)

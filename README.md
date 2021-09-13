@@ -50,8 +50,10 @@ Ergebnis ist ein JSON der Form
     "id": number, 
     "guid": string,
     "pubDate": string,
+    "imgSrc": string,
     "title": string,
     "manufacturer": string,
+    "type": string, 
     "warning": string,
     "affectedStates": [string]
 }
@@ -59,5 +61,5 @@ Ergebnis ist ein JSON der Form
 
 TODO:
 * ~~Scraping nicht nur mit $type = alle && $region = alle_bundeslaender~~ 
-* Integration in deutschland?
+* ~~Integration in deutschland?~~ 
 * OpenAPI-Spec -> API-Client?
